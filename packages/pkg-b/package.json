@@ -1,14 +1,14 @@
 {
-  "name": "1806",
+  "name": "pkg-b",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "devDependencies": {
+    "@types/sinon": "10.0.11"
+  },
   "author": "",
   "license": "ISC"
 }
